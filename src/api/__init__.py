@@ -1,0 +1,2 @@
+"""Retail Intelligence FastAPI microservice."""
+

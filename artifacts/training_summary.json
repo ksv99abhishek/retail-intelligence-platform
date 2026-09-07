@@ -1,0 +1,25 @@
+{
+  "backend": "lifetimes",
+  "n_customers": 4338,
+  "n_clusters": 4,
+  "segment_distribution": {
+    "At Risk / Hibernating": 1612,
+    "Loyal Customers": 1173,
+    "Potential Loyalists": 837,
+    "Champions": 716
+  },
+  "mean_clv_by_segment": {
+    "Monetary": {
+      "At Risk / Hibernating": 343.45003163771713,
+      "Champions": 8074.26687150838,
+      "Loyal Customers": 1802.8290051150896,
+      "Potential Loyalists": 551.8195340501792
+    },
+    "CLV_90D": {
+      "At Risk / Hibernating": 148.99398601828622,
+      "Champions": 1749.3525472789202,
+      "Loyal Customers": 409.3355918927632,
+      "Potential Loyalists": 344.1330791644958
+    }
+  }
+}

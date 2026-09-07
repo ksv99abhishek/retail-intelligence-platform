@@ -1,0 +1,254 @@
+{
+  "summary": {
+    "title": "Retail Intelligence Standardized Analytics",
+    "dataset": "Online Retail (541,909 Transactions)",
+    "period": "Full Dataset (Dec 2010 - Dec 2011)",
+    "updatedAt": "2026-09-06T19:00:00Z",
+    "totalRecords": 541909,
+    "filteredQuarter": "all",
+    "filteredCountry": "all"
+  },
+  "kpis": [
+    {
+      "id": "unique-orders",
+      "label": "Total Unique Orders",
+      "value": 25900,
+      "displayValue": "25,900",
+      "change": 12.0,
+      "changeType": "positive",
+      "changeLabel": "+12.0% from prior cycle",
+      "icon": "ShoppingBag",
+      "tooltip": "Total distinct completed purchase orders recorded across the retail platform"
+    },
+    {
+      "id": "total-revenue",
+      "label": "Tracked Dataset Revenue",
+      "value": 10666684.54,
+      "displayValue": "£10.67M",
+      "change": 18.4,
+      "changeType": "positive",
+      "changeLabel": "+18.4% from prior cycle",
+      "icon": "PoundSterling",
+      "tooltip": "Aggregate gross merchandise sales volume across all 13 months"
+    },
+    {
+      "id": "cancellation-rate",
+      "label": "Cancellation Rate",
+      "value": 19.97,
+      "displayValue": "19.97%",
+      "change": -1.2,
+      "changeType": "positive",
+      "changeLabel": "-1.2% improvement",
+      "icon": "AlertCircle",
+      "tooltip": "Percentage of invoice orders flagged with cancellation/return prefix"
+    },
+    {
+      "id": "peak-order-time",
+      "label": "Peak Order Window",
+      "value": "12:00 PM",
+      "displayValue": "12:00 PM",
+      "change": 0,
+      "changeType": "neutral",
+      "changeLabel": "3,220 orders in peak hour",
+      "icon": "Clock",
+      "tooltip": "Hour of highest purchase transactions, consistently driven by midday lunch traffic"
+    }
+  ],
+  "monthlyRevenueTrend": [
+    {
+      "month": "Dec '10",
+      "revenue": 823746.14,
+      "displayRevenue": "£824k",
+      "growth": 0.0
+    },
+    {
+      "month": "Jan '11",
+      "revenue": 691364.56,
+      "displayRevenue": "£691k",
+      "growth": -16.1
+    },
+    {
+      "month": "Feb '11",
+      "revenue": 523631.89,
+      "displayRevenue": "£524k",
+      "growth": -24.3
+    },
+    {
+      "month": "Mar '11",
+      "revenue": 717639.36,
+      "displayRevenue": "£718k",
+      "growth": 37.1
+    },
+    {
+      "month": "Apr '11",
+      "revenue": 537808.62,
+      "displayRevenue": "£538k",
+      "growth": -25.1
+    },
+    {
+      "month": "May '11",
+      "revenue": 770536.02,
+      "displayRevenue": "£771k",
+      "growth": 43.3
+    },
+    {
+      "month": "Jun '11",
+      "revenue": 761739.90,
+      "displayRevenue": "£762k",
+      "growth": -1.1
+    },
+    {
+      "month": "Jul '11",
+      "revenue": 719221.19,
+      "displayRevenue": "£719k",
+      "growth": -5.6
+    },
+    {
+      "month": "Aug '11",
+      "revenue": 737014.26,
+      "displayRevenue": "£737k",
+      "growth": 2.5
+    },
+    {
+      "month": "Sep '11",
+      "revenue": 1058590.17,
+      "displayRevenue": "£1.06M",
+      "growth": 43.6
+    },
+    {
+      "month": "Oct '11",
+      "revenue": 1154979.30,
+      "displayRevenue": "£1.15M",
+      "growth": 9.1
+    },
+    {
+      "month": "Nov '11",
+      "revenue": 1509496.33,
+      "displayRevenue": "£1.51M",
+      "growth": 30.7
+    },
+    {
+      "month": "Dec '11",
+      "revenue": 638792.68,
+      "displayRevenue": "£639k",
+      "growth": -57.7
+    }
+  ],
+  "hourlyOrders": [
+    {
+      "time": "8 AM",
+      "hour": 8,
+      "orders": 566
+    },
+    {
+      "time": "10 AM",
+      "hour": 10,
+      "orders": 2361
+    },
+    {
+      "time": "12 PM",
+      "hour": 12,
+      "orders": 3220,
+      "isPeak": true
+    },
+    {
+      "time": "2 PM",
+      "hour": 14,
+      "orders": 2457
+    },
+    {
+      "time": "4 PM",
+      "hour": 16,
+      "orders": 1335
+    }
+  ],
+  "topProducts": [
+    {
+      "rank": 1,
+      "stockCode": "DOT",
+      "name": "DOTCOM POSTAGE",
+      "revenue": 206245.48,
+      "displayRevenue": "£206k",
+      "quantitySold": 707,
+      "unitPrice": 291.72,
+      "category": "Postage & Fulfillment"
+    },
+    {
+      "rank": 2,
+      "stockCode": "22423",
+      "name": "REGENCY CAKESTAND 3 TIER",
+      "revenue": 174481.10,
+      "displayRevenue": "£174k",
+      "quantitySold": 13033,
+      "unitPrice": 12.75,
+      "category": "Home & Hospitality"
+    },
+    {
+      "rank": 3,
+      "stockCode": "23843",
+      "name": "PAPER CRAFT LITTLE BIRDIE",
+      "revenue": 168469.60,
+      "displayRevenue": "£168k",
+      "quantitySold": 80995,
+      "unitPrice": 2.08,
+      "category": "Arts & Crafts"
+    },
+    {
+      "rank": 4,
+      "stockCode": "47566",
+      "name": "PARTY BUNTING",
+      "revenue": 98301.44,
+      "displayRevenue": "£98k",
+      "quantitySold": 18295,
+      "unitPrice": 4.95,
+      "category": "Party & Events"
+    },
+    {
+      "rank": 5,
+      "stockCode": "85123A",
+      "name": "WHITE HANGING HEART T-LIGHT HOLDER",
+      "revenue": 93823.85,
+      "displayRevenue": "£94k",
+      "quantitySold": 36725,
+      "unitPrice": 2.55,
+      "category": "Decor & Lighting"
+    }
+  ],
+  "topMarkets": [
+    {
+      "country": "United Kingdom",
+      "code": "GB",
+      "revenue": 9025222.08,
+      "displayRevenue": "£9.03M",
+      "share": 90.0
+    },
+    {
+      "country": "Netherlands",
+      "code": "NL",
+      "revenue": 285446.34,
+      "displayRevenue": "£285k",
+      "share": 2.8
+    },
+    {
+      "country": "EIRE",
+      "code": "IE",
+      "revenue": 283453.96,
+      "displayRevenue": "£283k",
+      "share": 2.8
+    },
+    {
+      "country": "Germany",
+      "code": "DE",
+      "revenue": 228867.14,
+      "displayRevenue": "£229k",
+      "share": 2.3
+    },
+    {
+      "country": "France",
+      "code": "FR",
+      "revenue": 209715.11,
+      "displayRevenue": "£210k",
+      "share": 2.1
+    }
+  ]
+}

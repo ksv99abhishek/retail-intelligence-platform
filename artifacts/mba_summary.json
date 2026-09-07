@@ -1,0 +1,127 @@
+{
+  "min_support": 0.015,
+  "min_lift": 1.2,
+  "min_confidence": 0.2,
+  "n_frequent_itemsets": 549,
+  "n_rules": 340,
+  "top_rules": [
+    {
+      "antecedent": [
+        "WOODEN STAR CHRISTMAS SCANDINAVIAN"
+      ],
+      "consequent": [
+        "WOODEN HEART CHRISTMAS SCANDINAVIAN"
+      ],
+      "support": 0.0187,
+      "confidence": 0.7384,
+      "lift": 27.25
+    },
+    {
+      "antecedent": [
+        "WOODEN HEART CHRISTMAS SCANDINAVIAN"
+      ],
+      "consequent": [
+        "WOODEN STAR CHRISTMAS SCANDINAVIAN"
+      ],
+      "support": 0.0187,
+      "confidence": 0.689,
+      "lift": 27.25
+    },
+    {
+      "antecedent": [
+        "GREEN REGENCY TEACUP AND SAUCER",
+        "REGENCY CAKESTAND 3 TIER"
+      ],
+      "consequent": [
+        "PINK REGENCY TEACUP AND SAUCER"
+      ],
+      "support": 0.0159,
+      "confidence": 0.7246,
+      "lift": 22.47
+    },
+    {
+      "antecedent": [
+        "PINK REGENCY TEACUP AND SAUCER"
+      ],
+      "consequent": [
+        "GREEN REGENCY TEACUP AND SAUCER",
+        "REGENCY CAKESTAND 3 TIER"
+      ],
+      "support": 0.0159,
+      "confidence": 0.4918,
+      "lift": 22.47
+    },
+    {
+      "antecedent": [
+        "ROSES REGENCY TEACUP AND SAUCER",
+        "GREEN REGENCY TEACUP AND SAUCER"
+      ],
+      "consequent": [
+        "PINK REGENCY TEACUP AND SAUCER"
+      ],
+      "support": 0.0228,
+      "confidence": 0.7209,
+      "lift": 22.36
+    },
+    {
+      "antecedent": [
+        "PINK REGENCY TEACUP AND SAUCER"
+      ],
+      "consequent": [
+        "ROSES REGENCY TEACUP AND SAUCER",
+        "GREEN REGENCY TEACUP AND SAUCER"
+      ],
+      "support": 0.0228,
+      "confidence": 0.7078,
+      "lift": 22.36
+    },
+    {
+      "antecedent": [
+        "ROSES REGENCY TEACUP AND SAUCER",
+        "PINK REGENCY TEACUP AND SAUCER"
+      ],
+      "consequent": [
+        "GREEN REGENCY TEACUP AND SAUCER"
+      ],
+      "support": 0.0228,
+      "confidence": 0.8945,
+      "lift": 22.12
+    },
+    {
+      "antecedent": [
+        "GREEN REGENCY TEACUP AND SAUCER"
+      ],
+      "consequent": [
+        "ROSES REGENCY TEACUP AND SAUCER",
+        "PINK REGENCY TEACUP AND SAUCER"
+      ],
+      "support": 0.0228,
+      "confidence": 0.5644,
+      "lift": 22.12
+    },
+    {
+      "antecedent": [
+        "PINK REGENCY TEACUP AND SAUCER",
+        "REGENCY CAKESTAND 3 TIER"
+      ],
+      "consequent": [
+        "GREEN REGENCY TEACUP AND SAUCER"
+      ],
+      "support": 0.0159,
+      "confidence": 0.877,
+      "lift": 21.69
+    },
+    {
+      "antecedent": [
+        "GREEN REGENCY TEACUP AND SAUCER"
+      ],
+      "consequent": [
+        "PINK REGENCY TEACUP AND SAUCER",
+        "REGENCY CAKESTAND 3 TIER"
+      ],
+      "support": 0.0159,
+      "confidence": 0.3922,
+      "lift": 21.69
+    }
+  ]
+}
